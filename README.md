@@ -1,3 +1,6 @@
+## Note
+This is a modified version of version 0.1.4 of the original plugin.
+Updated to catch null pointer exception which gets thrown in certain cases.
 
 # cordova plugin startapp
 

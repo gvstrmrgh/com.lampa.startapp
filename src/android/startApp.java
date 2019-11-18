@@ -200,6 +200,10 @@ public class startApp extends CordovaPlugin {
 			callback.error("ActivityNotFoundException: " + e.getMessage());
 			e.printStackTrace();
 		}
+		catch (NullPointerException e) {
+			callback.error("NullPointerException: " + e.getMessage());
+			e.printStackTrace();
+		}
     }
 
     /**
